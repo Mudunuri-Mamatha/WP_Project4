@@ -1,0 +1,154 @@
+body{
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.full{
+    width: 100%;
+    height: 150%;
+}
+
+.part1{
+    margin-top: 10%;
+    height: 55%;
+    width:100%;
+    background-image: url('img/1.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.part1_inside{
+    width: 30%;
+    height:30%;
+    margin-top:18%;
+    border: 3px solid black;
+    background-color: white;
+}
+
+.part1_inside h1{
+    font-weight: lighter;
+}
+
+.button1 a{
+    margin-top: 1%;
+    float: left;
+    margin-left: 4%;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:10px;
+    color: black;
+}
+
+.button2 a{
+    /* margin-bottom: 2%; */
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding:10px;
+    background-color: black;
+    color: white;
+}
+
+.part2{
+    background-color: #303030;
+    height: 35%;
+    width: 101.6%;
+    margin-left: -1%;
+
+}
+
+.part2_inside{
+}
+
+.part2_img{
+    float: left;
+    
+}
+.part2_img img{
+    margin-top: 5%;
+    height: 100%;
+}
+.part2_inner{
+    color: white;
+    font-weight: lighter;
+    width: 60%;
+    float: right;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+hr{
+    margin-left: 0%;
+    width: 10%;
+}
+
+td{
+    color: white;
+    font-weight: lighter;
+    /* width: 2%; */
+    padding: 30px;
+}
+
+.part3{
+    background-color: #303030;
+    height: 80%;
+    width: 101.6%;
+    margin-left: -1%;
+    /* margin-top: 5%; */
+    color: white;
+
+}
+
+.part3 video{
+    margin-top: 5%;
+    width:50%;
+    height:50%;
+}
+
+.part3 h1{
+    text-align: center;
+}
+
+.part3 tr,td{
+    width: 20%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+  

@@ -1,0 +1,130 @@
+body{
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+.seller_reg{
+    width: 40%;
+    float: left;
+    margin-left: 20%;
+   
+}
+.seller_login{
+    width: 40%;
+    float: left;
+    margin-left: 20%;
+   
+}
+
+h3{
+    border: 1px solid #dcbf7d;
+    background-color : #dcbf7d;
+    width:40%;
+    color:black;
+    padding:10px;
+    text-align: center;
+
+}
+
+.buyer_reg{
+    width:40%;
+    float: right;
+    
+
+}
+
+.buyer_login{
+    width:40%;
+    float: right;
+    
+
+}
+
+.vl {
+    border-left: 4px solid #dcbf7d;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 0%;
+}
+.vl_login {
+border-left: 4px solid #dcbf7d;
+height: 250px;
+position: absolute;
+left: 50%;
+margin-left: -3px;
+margin-top: 0%;
+}
+
+input[type=text]{
+    border: 3px solid #9e6f4c;
+    border-radius: 100px / 50px;
+    background-color: #bcbea2;
+    width: 45%;
+    height:6%
+}
+input[type=password]{
+    border: 3px solid #9e6f4c;
+    border-radius: 100px / 50px;
+    background-color: #bcbea2;
+    width: 45%;
+    height:6%
+}
+input[type=email]{
+    border: 3px solid #9e6f4c;
+    border-radius: 100px / 50px;
+    background-color: #bcbea2;
+    width: 45%;
+    height:6%
+}
+input[type=submit]{
+    margin-left: 4%;
+    border: 3px solid #9e6f4c;
+    border-radius: 150px / 120px;
+    background-color: #9e6f4c;
+    width: 35%;
+    height:5%;
+    color: white;
+}
+input[type="text"]::placeholder {
+                 
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: black;
+}
+input[type="password"]::placeholder {
+                 
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: black;
+
+}
+input[type="email"]::placeholder {
+                 
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: black;
+
+}
+.redirect{
+    text-align: center;
+}
+
+.redirect h4{
+    color: white;
+}
+
+.redirect a{
+    color:#9e6f4c;
+    text-decoration: none;
+    font-weight: bold;
+}
